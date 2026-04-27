@@ -4,7 +4,7 @@ const fetch = require("node-fetch");
 const app = express();
 app.use(express.json());
 
-const WEBHOOK = "DEIN_DISCORD_WEBHOOK"; // <-- hier dein webhook rein
+const WEBHOOK = "https://discord.com/api/webhooks/1498310169564807271/twMBY4leRVBneMTfTc6shTZhjKk33F_uHwcx8ynrBN5N4YzpAaia3mHimcPlVX2n2A9K"; // <-- hier dein webhook rein
 
 app.post("/log", async (req, res) => {
     const data = req.body;
